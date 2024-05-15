@@ -1,0 +1,69 @@
+#editor{
+    margin-left: 10rem;
+    margin-top: 2rem !important;
+    width: 40%;
+}
+
+
+.upload-log-btn, .submit-btn {
+    /* display: inline-block; */
+    background-color: #000;
+    background-image: linear-gradient(125deg,#a72879,#064497);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width:200px;
+    cursor: pointer;
+    margin-top:20px;
+    
+  }
+
+  .upload-log-btn:before, .submit-btn::before {
+    height: 0%;
+    width: 2px;
+  }
+  .upload-log-btn:hover, .submit-btn:hover {
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.2),
+      inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+  }
+
+#fieldContainer {
+    margin: 8rem 5rem 0 5rem;
+}
+
+input, label{
+    width: 25rem !important;
+    margin-right: 10px !important;
+    
+}
+
+.submit-btn{
+    margin-right: 10px !important;
+}
+
+#file{
+    visibility: hidden;
+}
+
+.logo-cotainer{
+    /* visibility: hidden; */
+    width: 250px;
+    height: 150px;
+    border: 2px solid #064497;
+    margin: auto;
+}
+
+
+
+.ql-container.ql-snow {
+    height: auto;
+}
+.ql-editor {
+    height: 150px;
+    overflow-y: scroll;
+}
