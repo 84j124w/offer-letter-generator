@@ -1,4 +1,4 @@
-Prequisites
+Prerequisites
 
 NodeJs: v20.13.1
 NPM: v10.5.2
