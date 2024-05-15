@@ -10,7 +10,7 @@ git clone https://github.com/84j124w/offer-letter-generator
 
 or download the zip file
 
-after download or cloning
+after downloading or cloning
 
 1) open offer-letter-generator folder in vsisual studio code
 2) open command prompt (Header Menu -> ... -> Terminal -> New Terminal)
