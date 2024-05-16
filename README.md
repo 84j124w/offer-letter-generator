@@ -13,7 +13,7 @@ or download the zip file
 after downloading or cloning
 
 1) open offer-letter-generator folder in visual studio code
-2) open command prompt (Header Menu -> ... -> Terminal -> New Terminal)
+2) open command prompt (Header Menu -> ... Or Terminal -> Terminal -> New Terminal)
 3) run 'npm intall' on command prompt (to install node dependencies)
 4) run 'npm start' on command prompt (to run project)
 5) open link in browser http://localhost:3000/
