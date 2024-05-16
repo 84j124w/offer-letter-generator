@@ -42,29 +42,24 @@ function Home() {
         }
     };
 
-    const handleEditorChange = (content, delta, source, editor) => {
+   const handleEditorChange = (content, delta, source, editor) => {
         setText(content);
-        if (quillRef.current) {
-            if(source == "user"){
-                let position = (editor.getSelection() == null) ? 0 : editor.getSelection().index;
-                let secondHalf = editor.getText(position);
-                setSecondHalfText(secondHalf);
-                setLastCursorPosition(position); 
-            }
-        }
-       
+        EditorHandler(content, delta, source, editor);
     };
 
     const handleEditorFocus = (content, delta, source, editor) => {
+        EditorHandler(content, delta, source, editor);
+    };
+
+    const EditorHandler = (content, delta, source, editor) => {
         if (quillRef.current) {
-            if(source == "user"){
+            if(source != "api"){
                 const editor = quillRef.current.getEditor();
                 let position = (editor.getSelection() == null) ? 0 : editor.getSelection().index;
                 let secondHalf = editor.getText(position);
                 setSecondHalfText(secondHalf);
                 setLastCursorPosition(position); // Update cursor position on focus
             }
-            
         }
     };
 
