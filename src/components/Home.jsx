@@ -54,7 +54,7 @@ function Home() {
     const EditorHandler = (content, delta, source, editor) => {
         if (quillRef.current) {
             if(source != "api"){
-                // const editor = quillRef.current.getEditor();
+                const editor = quillRef.current.getEditor();
                 let position = (editor.getSelection() == null) ? 0 : editor.getSelection().index;
                 let secondHalf = editor.getText(position);
                 setSecondHalfText(secondHalf);
