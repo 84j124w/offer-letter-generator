@@ -18,3 +18,5 @@ after downloading or cloning
 4) run 'npm start' on command prompt (to run project)
 5) open link in browser http://localhost:3000/
 
+Note: You can run npm install & npm start on cmd directly 
+after moving in to offer-letter-generator directory
