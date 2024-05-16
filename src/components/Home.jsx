@@ -101,7 +101,7 @@ function Home() {
 
     return (
         <div className='d-flex'>
-            <div id="editor" className='col-lg-6 col-md-6 col-sm-12 col-12'>
+            <div id="editor" className='container col-lg-6 col-md-6 col-sm-12 col-12'>
 
                 <div className="form-group text-center">
                     <div className="logo-cotainer text-center ">
